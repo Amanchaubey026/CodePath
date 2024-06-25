@@ -1,10 +1,11 @@
-// import React from 'react'
+import { Box } from "@chakra-ui/react"
+import AllRoutes from "./routes/AllRoutes"
 
 const App = () => {
   return (
-    <div>
-      hello
-    </div>
+    <Box maxW="100%" overflowX="hidden">
+      <AllRoutes/>
+    </Box>
   )
 }
 
