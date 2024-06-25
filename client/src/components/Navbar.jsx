@@ -234,13 +234,8 @@ const NAV_ITEMS = [
     label: 'Coding Test',
     children: [
       {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
-        href: '#',
-      },
-      {
-        label: 'New & Noteworthy',
-        subLabel: 'Up-and-coming Designers',
+        label: 'Take test',
+        subLabel: 'Click here to take the test now',
         href: '#',
       },
     ],
@@ -249,23 +244,18 @@ const NAV_ITEMS = [
     label: 'Certificate',
     children: [
       {
-        label: 'Job Board',
-        subLabel: 'Find your dream design job',
-        href: '#',
-      },
-      {
-        label: 'Programming Languages',
-        subLabel: 'An exclusive list for contract work',
+        label: 'View Certificates',
+        subLabel: 'you get this after sucessful complition of the quiz.',
         href: '#',
       },
     ],
   },
   {
-    label: 'Learn Design',
+    label: 'Programming Languages',
     href: '#',
   },
   {
-    label: 'Hire Designers',
+    label: 'About us',
     href: '#',
   },
 ];
