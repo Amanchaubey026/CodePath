@@ -24,7 +24,7 @@ const HeroPage = () => {
           <Heading
             lineHeight={1.1}
             fontWeight={600}
-            fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
+            fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}>
             <Text
               as={'span'}
               position={'relative'}
@@ -38,15 +38,15 @@ const HeroPage = () => {
                 bg: '#3366FF',
                 zIndex: -1,
               }}>
-              Write once,
+              Test your coding skills 
             </Text>
             <br />
             <Text as={'span'} color={'#0032E7'}>
-              use everywhere!
+            online and earn a certificate!
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-          Test your coding skills online and earn a certificate! Our platform offers a variety of coding challenges and tests across different programming languages. Evaluate your skills, identify strengths and areas for improvement, and get recognized with an industry-standard certificate. 
+           Our platform offers a variety of coding challenges and tests across different programming languages. Evaluate your skills, identify strengths and areas for improvement, and get recognized with an industry-standard certificate. 
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button
@@ -82,7 +82,7 @@ const HeroPage = () => {
             top={'-20%'}
             left={0}
             zIndex={-1}
-            color={useColorModeValue('red.50', 'red.400')}
+            color={useColorModeValue('blue.50', 'blue.400')}
           />
           <Box
             position={'relative'}
