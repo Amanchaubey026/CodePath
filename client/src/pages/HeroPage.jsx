@@ -12,7 +12,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import hero from '../assets/hero.mp4'
-//
+
 const HeroPage = () => {
   return (
     <Container maxW={'7xl'}>
