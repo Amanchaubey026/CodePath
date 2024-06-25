@@ -30,7 +30,6 @@ export default function Navbar() {
   return (
     <Box>
       <Flex
-        bg='#E2E2E2'
         color={useColorModeValue('gray.600', 'white')}
         minH={'60px'}
         py={{ base: 2 }}
@@ -146,12 +145,12 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       display={'block'}
       p={2}
       rounded={'md'}
-      _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
+      _hover={{ bg: useColorModeValue('blue.50', 'gray.900') }}>
       <Stack direction={'row'} align={'center'}>
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'pink.400' }}
+            _groupHover={{ color: '#3366FF' }}
             fontWeight={500}>
             {label}
           </Text>
@@ -165,7 +164,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           justify={'flex-end'}
           align={'center'}
           flex={1}>
-          <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={'#3366FF'} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Box>
@@ -232,7 +231,7 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: 'Inspiration',
+    label: 'Coding Test',
     children: [
       {
         label: 'Explore Design Work',
@@ -247,7 +246,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'Find Work',
+    label: 'Certificate',
     children: [
       {
         label: 'Job Board',
@@ -255,7 +254,7 @@ const NAV_ITEMS = [
         href: '#',
       },
       {
-        label: 'Freelance Projects',
+        label: 'Programming Languages',
         subLabel: 'An exclusive list for contract work',
         href: '#',
       },

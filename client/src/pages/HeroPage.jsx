@@ -14,7 +14,7 @@ import {
 import hero from '../assets/hero.mp4'
 const HeroPage = () => {
   return (
-    <Container bg={'#E2E2E2'} maxW={'7xl'}>
+    <Container maxW={'7xl'}>
       <Stack
         align={'center'}
         spacing={{ base: 8, md: 10 }}
@@ -35,7 +35,7 @@ const HeroPage = () => {
                 position: 'absolute',
                 bottom: 1,
                 left: 0,
-                bg: 'red.400',
+                bg: '#3366FF',
                 zIndex: -1,
               }}>
               Write once,
@@ -46,9 +46,7 @@ const HeroPage = () => {
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Snippy is a rich coding snippets app that lets you create your own code
-            snippets, categorize them, and even sync them in the cloud so you can use them
-            anywhere. All that is free!
+          Test your coding skills online and earn a certificate! Our platform offers a variety of coding challenges and tests across different programming languages. Evaluate your skills, identify strengths and areas for improvement, and get recognized with an industry-standard certificate. 
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button
